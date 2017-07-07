@@ -1,0 +1,21 @@
+{
+  "name": "SPA-Rack",
+  "private": true,
+  "version": "0.0.0",
+  "description": "SPA Rack showing off Racks lightweight, fast, ruby server",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "~6.1.2",
+    "babel-loader": "~6.0.1",
+    "babel-preset-es2015": "~6.1.2",
+    "babel-preset-react": "~6.1.2",
+    "react": "~0.14.2",
+    "react-dom": "~0.14.2",
+    "webpack": "~1.12.2"
+  },
+  "scripts": {
+    "start": "bundle install; puma -p 3000",
+    "build": "webpack --config spa/webpack.config.js -d",
+    "watch": "webpack --config spa/webpack.config.js -d --watch"
+  }
+}

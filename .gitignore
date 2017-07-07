@@ -1,0 +1,51 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Merging
+**.orig
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Compiled
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs
+*.log
+
+# VIM
+*.un
+*.un~
+*.swp
+
+############
+# Frameworks
+
+# Ruby
+.byebug_history
+
+# NodeJS
+node_modules/*
+
+############
+# Application
+
+assets/compiled

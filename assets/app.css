@@ -1,0 +1,41 @@
+/* YOU SHOULD REALLY LOOK INTO USE CSS LOADERS IN WEBPACK */
+body
+{
+  font: 18px sans-serif;
+  margin: 0;
+  background: #e7594f;
+  color: #fff;
+}
+
+.middle
+{
+  text-align: center;
+  margin-top: 100px;
+}
+
+button
+{
+  background: #d55249;
+  border: 1px solid #ba4840;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+button:hover
+{
+  background-color: #ba4840;
+}
+
+h2
+{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.info
+{
+  margin: 50px auto;
+  max-width: 500px;
+}
