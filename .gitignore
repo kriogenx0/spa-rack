@@ -44,6 +44,7 @@ Thumbs.db
 
 # NodeJS
 node_modules/*
+package-lock.json
 
 ############
 # Application

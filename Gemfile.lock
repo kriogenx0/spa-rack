@@ -1,13 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (9.1.0)
+    puma (3.11.4)
     rack (2.0.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack (~> 2.0.1)
+  byebug (~> 9.0)
+  puma (~> 3.9)
+  rack (~> 2.0.3)
 
 BUNDLED WITH
-   1.15.1
+   1.16.1

@@ -2,14 +2,13 @@
 
 ### Purpose
 
-Show a Proof of Concept that SPA can work with a minimal middleware and not use Rails.
+A first step to building a lightweight SPA server. This is a stepping stone away from Rails.
 
 ### Getting Started
 
 ```sh
-npm install
-npm run build
-npm start
+./bin/sprack install
+./bin/sprack start
 ```
 
 This will install node modules, build webpack, run bundle install, and start the rack server.

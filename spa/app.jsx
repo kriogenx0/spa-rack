@@ -16,9 +16,10 @@ class App extends React.Component {
   handleButtonClick() {
     this.setState({ status: 'Requesting from API' });
     this.xhr = new XMLHttpRequest();
-    this.xhr.open('GET', '/api/items?filter=some', true);
+    this.xhr.open('POST', '/api/items?filter=out', true);
     this.xhr.onreadystatechange = this.apiCallback;
-    this.xhr.send();
+    this.xhr.send('posted=thing');
+
   }
 
   apiCallback() {
